@@ -1,0 +1,11 @@
+{
+  "name": "main",
+    "components": [
+      {
+      "shape": "rectangle",
+      "image": "../pexels-jeandaniel-francoeur-2570139.jpg",
+      "size": 1,
+      "position": 0
+      }
+  ]
+}

@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		92B2AD91F5444D72A5D1C83D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B39E0236FEDD421DA556F66B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F9C237500450480755E07EE3 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F8C4C4DDFD284384BF7716B0 /* PBXTargetDependency */,
+				AE9A2A0CE70D4539AC08D32D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9F71340DC49F49069E63146D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 402805D95333408CA42FE3A3 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5FF326D8655D4D7694D00F5E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D8672EF9812F4263B9BCF70F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B31EA9AA4C243ED929CA21A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DD3F15512D47C6F8E07DA844 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		15000230EC4B4C6C8C1DF282 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F5B6D4FC0447EA0214D5C /* Parser.cpp */; };
+		6A621A1B7C514FA5ACF93524 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C78690DEA9C641C58C007E96 /* main.cpp */; };
+		AA14E41592BC4870B2FF8145 /* GUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3204B4E869D4119B925CE4F /* GUI.cpp */; };
+		B4D818E508C447B8A30FF4D0 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBF2596EEA4A5DBDD8B176 /* Menu.cpp */; };
+		CA276141453F459B93BDE8EC /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CE07D046224B34A47B39B0 /* Component.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB56AB5065F46CDA276A464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20A3F5931F1441E9C0D3E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B2AD91F5444D72A5D1C83D;
+			remoteInfo = ALL_BUILD;
+		};
+		98525A8C08C9484BB7C3158E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20A3F5931F1441E9C0D3E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68B6CBB891543F1B002ADB4;
+			remoteInfo = "e-gui";
+		};
+		B89265CA8ADA4A19A00668E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20A3F5931F1441E9C0D3E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8672EF9812F4263B9BCF70F;
+			remoteInfo = ZERO_CHECK;
+		};
+		C51DDC99378C4D14876CCC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20A3F5931F1441E9C0D3E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8672EF9812F4263B9BCF70F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00498870277DB4870058FE17 /* EnumStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnumStruct.hpp; sourceTree = "<group>"; };
+		1073C942AB9140A2976D9804 /* Component.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Component.hpp; sourceTree = SOURCE_ROOT; };
+		2ECBF2596EEA4A5DBDD8B176 /* Menu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Menu.cpp; sourceTree = SOURCE_ROOT; };
+		70ADBC44484E48B68B3583BF /* GUI.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = GUI.hpp; sourceTree = SOURCE_ROOT; };
+		7D4F5B6D4FC0447EA0214D5C /* Parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Parser.cpp; sourceTree = SOURCE_ROOT; };
+		91AF191B18D84D799DFE3D33 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92CE07D046224B34A47B39B0 /* Component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Component.cpp; sourceTree = SOURCE_ROOT; };
+		963B5287C41D4AA9B5662380 /* Menu.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Menu.hpp; sourceTree = SOURCE_ROOT; };
+		A5D76F6991144BA58E0C18D6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C78690DEA9C641C58C007E96 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D6B5742350C8459798E7AA14 /* Parser.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Parser.hpp; sourceTree = SOURCE_ROOT; };
+		E3204B4E869D4119B925CE4F /* GUI.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = GUI.cpp; sourceTree = SOURCE_ROOT; };
+		E9BD57B05E3B468984EC784B /* e-gui */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "e-gui"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C57C3BCB215476CA79F0BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E13343B812744F8AAD4CFBF /* e-gui */ = {
+			isa = PBXGroup;
+			children = (
+				E9A3C462D56A42BE8A5312BA /* Source Files */,
+				A68DCFEBB8864059B7EC9939 /* Header Files */,
+				A5D76F6991144BA58E0C18D6 /* CMakeLists.txt */,
+			);
+			name = "e-gui";
+			sourceTree = "<group>";
+		};
+		1B89922CDB144C24B83184F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD57B05E3B468984EC784B /* e-gui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9933A3CA7A482389767497 = {
+			isa = PBXGroup;
+			children = (
+				0E13343B812744F8AAD4CFBF /* e-gui */,
+				D2F887F96B114902AC82AB24 /* ALL_BUILD */,
+				1B89922CDB144C24B83184F4 /* Products */,
+				74F3D854214B4839B169E99E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A53A620AE814A60909354E5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		74F3D854214B4839B169E99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68DCFEBB8864059B7EC9939 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1073C942AB9140A2976D9804 /* Component.hpp */,
+				00498870277DB4870058FE17 /* EnumStruct.hpp */,
+				70ADBC44484E48B68B3583BF /* GUI.hpp */,
+				963B5287C41D4AA9B5662380 /* Menu.hpp */,
+				D6B5742350C8459798E7AA14 /* Parser.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D2F887F96B114902AC82AB24 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5A53A620AE814A60909354E5 /* CMake Rules */,
+				91AF191B18D84D799DFE3D33 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E9A3C462D56A42BE8A5312BA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				92CE07D046224B34A47B39B0 /* Component.cpp */,
+				E3204B4E869D4119B925CE4F /* GUI.cpp */,
+				2ECBF2596EEA4A5DBDD8B176 /* Menu.cpp */,
+				7D4F5B6D4FC0447EA0214D5C /* Parser.cpp */,
+				C78690DEA9C641C58C007E96 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68B6CBB891543F1B002ADB4 /* e-gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E818587ED0084CC69C0CAD7C /* Build configuration list for PBXNativeTarget "e-gui" */;
+			buildPhases = (
+				1A3AE1760A3C40FAB05A141D /* Sources */,
+				9C57C3BCB215476CA79F0BBB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F227ECAD7C4827A8DCDA88 /* PBXTargetDependency */,
+			);
+			name = "e-gui";
+			productName = "e-gui";
+			productReference = E9BD57B05E3B468984EC784B /* e-gui */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20A3F5931F1441E9C0D3E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 03CDB6B27DA74A46AD831DF5 /* Build configuration list for PBXProject "e-gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D9933A3CA7A482389767497;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				92B2AD91F5444D72A5D1C83D /* ALL_BUILD */,
+				D8672EF9812F4263B9BCF70F /* ZERO_CHECK */,
+				D68B6CBB891543F1B002ADB4 /* e-gui */,
+				9F71340DC49F49069E63146D /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3F15512D47C6F8E07DA844 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/thnom/Projects/e-gui/e-gui/Build/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  make -f /Users/thnom/Projects/e-gui/e-gui/Build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  make -f /Users/thnom/Projects/e-gui/e-gui/Build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  make -f /Users/thnom/Projects/e-gui/e-gui/Build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  make -f /Users/thnom/Projects/e-gui/e-gui/Build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C237500450480755E07EE3 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/thnom/Projects/e-gui/e-gui/Build/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/thnom/Projects/e-gui/e-gui/Build\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3AE1760A3C40FAB05A141D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA276141453F459B93BDE8EC /* Component.cpp in Sources */,
+				AA14E41592BC4870B2FF8145 /* GUI.cpp in Sources */,
+				B4D818E508C447B8A30FF4D0 /* Menu.cpp in Sources */,
+				15000230EC4B4C6C8C1DF282 /* Parser.cpp in Sources */,
+				6A621A1B7C514FA5ACF93524 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F227ECAD7C4827A8DCDA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8672EF9812F4263B9BCF70F /* ZERO_CHECK */;
+			targetProxy = C51DDC99378C4D14876CCC96 /* PBXContainerItemProxy */;
+		};
+		5FF326D8655D4D7694D00F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B2AD91F5444D72A5D1C83D /* ALL_BUILD */;
+			targetProxy = 4CB56AB5065F46CDA276A464 /* PBXContainerItemProxy */;
+		};
+		AE9A2A0CE70D4539AC08D32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8672EF9812F4263B9BCF70F /* ZERO_CHECK */;
+			targetProxy = B89265CA8ADA4A19A00668E7 /* PBXContainerItemProxy */;
+		};
+		F8C4C4DDFD284384BF7716B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68B6CBB891543F1B002ADB4 /* e-gui */;
+			targetProxy = 98525A8C08C9484BB7C3158E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0185D583F4F24281B6F4F7A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		0C4EA9E6CF9A4FCE9AEB4401 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		0CC4B262E0A9440F8B743593 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/thnom/Projects/e-gui/e-gui/include/rapidjson",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/.,
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-F",
+					/usr/local,
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-audio",
+					"-framework",
+					"sfml-window",
+					"-framework",
+					"sfml-system",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "e-gui";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		169E8F81ECE940208D5D9B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/thnom/Projects/e-gui/e-gui/include/rapidjson",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/.,
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-F",
+					/usr/local,
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-audio",
+					"-framework",
+					"sfml-window",
+					"-framework",
+					"sfml-system",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "e-gui";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1F57AA4301F64CC287FF7072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		22E2750612814D79AB9F9B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build/build";
+			};
+			name = Debug;
+		};
+		271F1F134CDA43BD8AE86205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		3F1F104A96FE493CA9694CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/thnom/Projects/e-gui/e-gui/include/rapidjson",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/.,
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-F",
+					/usr/local,
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-audio",
+					"-framework",
+					"sfml-window",
+					"-framework",
+					"sfml-system",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "e-gui";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		44A882D8EEF74A29B0D4827C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		5A9D4C49687947B19327BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		74811C416D814BA3A8BE1CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		748D204F67014A9F9DEEEA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		855ECA696E0E4E2A82915C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		87380124A3B14F2381986F6B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		9554DB9DE8D2435DBB6BD03D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/thnom/Projects/e-gui/e-gui/include/rapidjson",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/local/.,
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-F",
+					/usr/local,
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-audio",
+					"-framework",
+					"sfml-window",
+					"-framework",
+					"sfml-system",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "e-gui";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		9A62AB9EB7D2412FB43CD873 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B01F4168811B4613AA05FBC5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B219AD6E6A4046C79E76EA5D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		EBD9734D049149429D017A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build/build";
+			};
+			name = Release;
+		};
+		F75FB4226FC94D4B8C78058A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/thnom/Projects/e-gui/e-gui/Build/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CDB6B27DA74A46AD831DF5 /* Build configuration list for PBXProject "e-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E2750612814D79AB9F9B31 /* Debug */,
+				EBD9734D049149429D017A5E /* Release */,
+				F75FB4226FC94D4B8C78058A /* MinSizeRel */,
+				9A62AB9EB7D2412FB43CD873 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		402805D95333408CA42FE3A3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271F1F134CDA43BD8AE86205 /* Debug */,
+				748D204F67014A9F9DEEEA3D /* Release */,
+				0185D583F4F24281B6F4F7A9 /* MinSizeRel */,
+				0C4EA9E6CF9A4FCE9AEB4401 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B31EA9AA4C243ED929CA21A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74811C416D814BA3A8BE1CAA /* Debug */,
+				855ECA696E0E4E2A82915C02 /* Release */,
+				87380124A3B14F2381986F6B /* MinSizeRel */,
+				B219AD6E6A4046C79E76EA5D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B39E0236FEDD421DA556F66B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D4C49687947B19327BA96 /* Debug */,
+				1F57AA4301F64CC287FF7072 /* Release */,
+				B01F4168811B4613AA05FBC5 /* MinSizeRel */,
+				44A882D8EEF74A29B0D4827C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E818587ED0084CC69C0CAD7C /* Build configuration list for PBXNativeTarget "e-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1F104A96FE493CA9694CB7 /* Debug */,
+				169E8F81ECE940208D5D9B3F /* Release */,
+				9554DB9DE8D2435DBB6BD03D /* MinSizeRel */,
+				0CC4B262E0A9440F8B743593 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20A3F5931F1441E9C0D3E10 /* Project object */;
+}

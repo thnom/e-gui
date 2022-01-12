@@ -1,0 +1,38 @@
+[
+  {
+    "name": "main",
+    "rect": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "background": "ui/assets/ut_menuback.jpg",
+    "on_open": [
+      "stopRefresh",
+      "getName"
+    ]
+  },
+  {
+    "name": "window_black_top",
+    "rect": [
+      0,
+      0,
+      1,
+      0.1
+    ],
+    "background-colour": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "border": true,
+    "border-colour": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+]

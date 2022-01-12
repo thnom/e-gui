@@ -1,0 +1,69 @@
+{
+  "name": "main",
+  "components": [
+    {
+      "name": "background_img",
+      "shape": "rectangle",
+      "image": "../pexels-jeandaniel-francoeur-2570139.jpg",
+      "size": 1,
+      "position": 0
+    },
+    {
+      "name": "sidebar",
+      "parent": "background_img",
+      "shape": "rectangle",
+      "background_colour": [
+        150,
+        250,
+        50
+      ],
+      "size": {
+        "type": "percent",
+        "x": 0.1,
+        "y": 1
+      },
+      "position": {
+        "type": "absolute",
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "button_test",
+      "parent": "sidebar",
+      "shape": "rectangle",
+      "background_colour": [
+        25,
+        25,
+        25
+      ],
+      "size": {
+        "type": "percent",
+        "x": 1,
+        "y": 0.25
+      },
+      "position": {
+        "type": "percent",
+        "x": 0,
+        "y": 0.25
+      },
+      "actions":{
+        "on_click": {
+          "hide": [
+            "this",
+            "that",
+            "something_else"
+          ],
+          "show": [
+            "this",
+            "that",
+            "something_else"
+          ]
+        },
+        "on_hover": {
+          
+        }
+      }
+    }
+  ]
+}
